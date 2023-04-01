@@ -1,0 +1,94 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+
+<body>
+<h4 class="card-title">MISSING CASE IDENFICATION</h4>
+{#                  <p class="card-category"></p>#}
+
+{#                <div class="card-body">#}
+                 <form method="post" enctype="multipart/form-data">
+                      {% csrf_token %}
+
+                     <table>
+
+
+                          <div class="row">
+                      <div class="col-md-12">
+
+   Photo
+                   <input type="file" name="img" accept="image/*" class="form-control" id="profile-img" required="" />
+
+    <img src="" id="profile-img-tag" width="200px" />
+
+                      </div>
+                      </div>
+
+
+
+
+                    <button type="submit" class="btn btn-primary pull-right">IDENTIFY</button>
+                    <div class="clearfix"></div>
+
+
+                         <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating"></label>
+                           <p style="color: black">{{ objval }}</p>
+             <p style="color: black">{{ res }}</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                         <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating"></label>
+
+                         <tr>
+                               {% if img %}
+                <td> Uploaded Image
+                     <img src="/static/{{ img }}" width="140px" />
+                </td>
+
+                             {% endif %}
+
+                        {% if case %}
+
+                <td>
+                     <p>Matched Image
+                     <img src="/static/{{ case }}" width="140px" />
+                     </p>
+                </td>
+                        {% endif %}
+
+            </tr>
+                        </div>
+                      </div>
+                    </div>
+
+                         </table>
+
+                  </form>
+
+</body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#profile-img-tag').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $("#profile-img").change(function(){
+        readURL(this);
+    });
+</script>
+
+{% endblock %}

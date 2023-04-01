@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="34" version="2.0">
+<workbenchAdvisor/>
+<window height="728" maximized="true" width="1024" x="74" y="204">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.pde.runtime.LogView"/>
+<orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
+<orientation position="512" view="org.eclipse.jdt.ui.PackageExplorer"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.ui.views.ProblemView"/>
+<orientation position="512" view="org.eclipse.search.ui.views.SearchView"/>
+<orientation position="512" view="org.eclipse.ui.views.ResourceNavigator"/>
+<orientation position="512" view="org.eclipse.ui.views.ProgressView"/>
+<orientation position="512" view="org.eclipse.ui.texteditor.TemplatesView"/>
+<orientation position="512" view="org.eclipse.jdt.ui.SourceView"/>
+<orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
+<orientation position="512" view="org.eclipse.ui.views.TaskList"/>
+<orientation position="512" view="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<orientation position="512" view="org.eclipse.ui.navigator.ProjectExplorer"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1634980642370" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_missingdetails.java" partName="View_missingdetails.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_missingdetails.java" title="View_missingdetails.java" tooltip="MissingChild/src/com/example/missingchild/View_missingdetails.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_missingdetails.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5606" selectionTopPixel="2608"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_missingcase.java" partName="View_missingcase.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_missingcase.java" title="View_missingcase.java" tooltip="MissingChild/src/com/example/missingchild/View_missingcase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_missingcase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1406" selectionTopPixel="869"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_casestaus.java" partName="View_casestaus.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_casestaus.java" title="View_casestaus.java" tooltip="MissingChild/src/com/example/missingchild/View_casestaus.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_casestaus.java"/>
+<editorState selectionHorizontalPixel="261" selectionLength="0" selectionOffset="4395" selectionTopPixel="1534"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="JSONObject.class" partName="JSONObject.class" title="JSONObject.class" tooltip="org.json.JSONObject" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MissingChild/E:\/Android\/android-sdks bf google api 4.1.2\/android-sdks\/platforms\/android-16\/android.jar&lt;org.json(JSONObject.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" partName="Login.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Login.java" title="Login.java" tooltip="MissingChild/src/com/example/missingchild/Login.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Login.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="855" selectionTopPixel="60"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Post_complaint.java" partName="Post_complaint.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Post_complaint.java" title="Post_complaint.java" tooltip="MissingChild/src/com/example/missingchild/Post_complaint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Post_complaint.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2704" selectionTopPixel="1570"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="U_register.java" partName="U_register.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/U_register.java" title="U_register.java" tooltip="MissingChild/src/com/example/missingchild/U_register.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/U_register.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3470" selectionTopPixel="1328"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" partName="activity_login.xml" path="D:/final project/Android/MissingChild/res/layout/activity_login.xml" title="activity_login.xml" tooltip="MissingChild/res/layout/activity_login.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_login.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_casestaus.xml" partName="view_casestaus.xml" path="D:/final project/Android/MissingChild/res/layout/view_casestaus.xml" title="view_casestaus.xml" tooltip="MissingChild/res/layout/view_casestaus.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/view_casestaus.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Inform_missingcase.java" partName="Inform_missingcase.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Inform_missingcase.java" title="Inform_missingcase.java" tooltip="MissingChild/src/com/example/missingchild/Inform_missingcase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Inform_missingcase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2965" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_criminal.java" partName="View_criminal.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_criminal.java" title="View_criminal.java" tooltip="MissingChild/src/com/example/missingchild/View_criminal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_criminal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3933" selectionTopPixel="1294"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_caseimg.java" partName="View_caseimg.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_caseimg.java" title="View_caseimg.java" tooltip="MissingChild/src/com/example/missingchild/View_caseimg.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_caseimg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Reg_missingcase.java" partName="Reg_missingcase.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Reg_missingcase.java" title="Reg_missingcase.java" tooltip="MissingChild/src/com/example/missingchild/Reg_missingcase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Reg_missingcase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4377" selectionTopPixel="1427"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_criminal.xml" partName="activity_view_criminal.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_criminal.xml" title="activity_view_criminal.xml" tooltip="MissingChild/res/layout/activity_view_criminal.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_criminal.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_criminal.xml" partName="view_criminal.xml" path="D:/final project/Android/MissingChild/res/layout/view_criminal.xml" title="view_criminal.xml" tooltip="MissingChild/res/layout/view_criminal.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/view_criminal.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_criminalimg.java" partName="View_criminalimg.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_criminalimg.java" title="View_criminalimg.java" tooltip="MissingChild/src/com/example/missingchild/View_criminalimg.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_criminalimg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2085" selectionTopPixel="818"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_criminalimg.xml" partName="activity_view_criminalimg.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_criminalimg.xml" title="activity_view_criminalimg.xml" tooltip="MissingChild/res/layout/activity_view_criminalimg.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_criminalimg.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_missingdetails.xml" partName="activity_view_missingdetails.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_missingdetails.xml" title="activity_view_missingdetails.xml" tooltip="MissingChild/res/layout/activity_view_missingdetails.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_missingdetails.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_missingcase.xml" partName="activity_view_missingcase.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_missingcase.xml" title="activity_view_missingcase.xml" tooltip="MissingChild/res/layout/activity_view_missingcase.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_missingcase.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_post_complaint.xml" partName="activity_post_complaint.xml" path="D:/final project/Android/MissingChild/res/layout/activity_post_complaint.xml" title="activity_post_complaint.xml" tooltip="MissingChild/res/layout/activity_post_complaint.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_post_complaint.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_home.xml" partName="activity_home.xml" path="D:/final project/Android/MissingChild/res/layout/activity_home.xml" title="activity_home.xml" tooltip="MissingChild/res/layout/activity_home.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_home.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_emergencyno.xml" partName="activity_view_emergencyno.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_emergencyno.xml" title="activity_view_emergencyno.xml" tooltip="MissingChild/res/layout/activity_view_emergencyno.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_emergencyno.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_inform_missingcase.xml" partName="activity_inform_missingcase.xml" path="D:/final project/Android/MissingChild/res/layout/activity_inform_missingcase.xml" title="activity_inform_missingcase.xml" tooltip="MissingChild/res/layout/activity_inform_missingcase.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_inform_missingcase.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_reg_missingcase.xml" partName="activity_reg_missingcase.xml" path="D:/final project/Android/MissingChild/res/layout/activity_reg_missingcase.xml" title="activity_reg_missingcase.xml" tooltip="MissingChild/res/layout/activity_reg_missingcase.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_reg_missingcase.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_u_register.xml" partName="activity_u_register.xml" path="D:/final project/Android/MissingChild/res/layout/activity_u_register.xml" title="activity_u_register.xml" tooltip="MissingChild/res/layout/activity_u_register.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_u_register.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_awarness.xml" partName="activity_view_awarness.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_awarness.xml" title="activity_view_awarness.xml" tooltip="MissingChild/res/layout/activity_view_awarness.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_awarness.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_caseimg.xml" partName="activity_view_caseimg.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_caseimg.xml" title="activity_view_caseimg.xml" tooltip="MissingChild/res/layout/activity_view_caseimg.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_caseimg.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_casestaus.xml" partName="activity_view_casestaus.xml" path="D:/final project/Android/MissingChild/res/layout/activity_view_casestaus.xml" title="activity_view_casestaus.xml" tooltip="MissingChild/res/layout/activity_view_casestaus.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_view_casestaus.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_emergencyno.java" partName="View_emergencyno.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_emergencyno.java" title="View_emergencyno.java" tooltip="MissingChild/src/com/example/missingchild/View_emergencyno.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_emergencyno.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3412" selectionTopPixel="1090"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_forgot_password.xml" partName="activity_forgot_password.xml" path="D:/final project/Android/MissingChild/res/layout/activity_forgot_password.xml" title="activity_forgot_password.xml" tooltip="MissingChild/res/layout/activity_forgot_password.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/activity_forgot_password.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Forgot_password.java" partName="Forgot_password.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Forgot_password.java" title="Forgot_password.java" tooltip="MissingChild/src/com/example/missingchild/Forgot_password.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Forgot_password.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2300" selectionTopPixel="835"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Home.java" partName="Home.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Home.java" title="Home.java" tooltip="MissingChild/src/com/example/missingchild/Home.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Home.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1583"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_missingdetails.xml" partName="view_missingdetails.xml" path="D:/final project/Android/MissingChild/res/layout/view_missingdetails.xml" title="view_missingdetails.xml" tooltip="MissingChild/res/layout/view_missingdetails.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/view_missingdetails.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="D:/final project/Android/MissingChild/res/values/strings.xml" title="strings.xml" tooltip="MissingChild/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/values/strings.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="MissingChild Manifest" path="D:/final project/Android/MissingChild/AndroidManifest.xml" title="MissingChild Manifest" tooltip="MissingChild/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/AndroidManifest.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_awarness.java" partName="View_awarness.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/View_awarness.java" title="View_awarness.java" tooltip="MissingChild/src/com/example/missingchild/View_awarness.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/View_awarness.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2791" selectionTopPixel="869"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="post_complaint.xml" partName="post_complaint.xml" path="D:/final project/Android/MissingChild/res/layout/post_complaint.xml" title="post_complaint.xml" tooltip="MissingChild/res/layout/post_complaint.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/post_complaint.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_awarness.xml" partName="view_awarness.xml" path="D:/final project/Android/MissingChild/res/layout/view_awarness.xml" title="view_awarness.xml" tooltip="MissingChild/res/layout/view_awarness.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/view_awarness.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_emergencyno.xml" partName="view_emergencyno.xml" path="D:/final project/Android/MissingChild/res/layout/view_emergencyno.xml" title="view_emergencyno.xml" tooltip="MissingChild/res/layout/view_emergencyno.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/res/layout/view_emergencyno.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customelist.java" partName="Customelist.java" path="D:/final project/Android/MissingChild/src/com/example/missingchild/Customelist.java" title="Customelist.java" tooltip="MissingChild/src/com/example/missingchild/Customelist.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MissingChild/src/com/example/missingchild/Customelist.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="140"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="Aggregate for window 1634980642370">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21476015" ratioLeft="291" ratioRight="1064" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.75444263" ratioLeft="467" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_forgot_password.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_missingcase.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_emergencyno.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_criminalimg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_casestaus.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_caseimg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_missingdetails.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_criminal.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_view_awarness.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/post_complaint.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_post_complaint.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_home.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_inform_missingcase.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_login.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_reg_missingcase.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/activity_u_register.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/Login.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/View_criminalimg.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/Login.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/View_missingdetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/MissingChild/res/layout/view_missingdetails.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/View_casestaus.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/View_missingdetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MissingChild/src/com/example/missingchild/Customelist.java"/>
+</editors>
+<item historyLabel="activity_post_complaint.xml" index="10"/>
+<item historyLabel="activity_forgot_password.xml" index="0"/>
+<item historyLabel="activity_home.xml" index="11"/>
+<item historyLabel="activity_inform_missingcase.xml" index="12"/>
+<item historyLabel="activity_login.xml" index="13"/>
+<item historyLabel="activity_post_complaint.xml" index="10"/>
+<item historyLabel="activity_reg_missingcase.xml" index="14"/>
+<item historyLabel="activity_u_register.xml" index="15"/>
+<item historyLabel="activity_view_awarness.xml" index="8"/>
+<item historyLabel="activity_view_caseimg.xml" index="5"/>
+<item historyLabel="activity_view_casestaus.xml" index="4"/>
+<item historyLabel="activity_view_criminal.xml" index="7"/>
+<item historyLabel="activity_view_criminalimg.xml" index="3"/>
+<item historyLabel="activity_view_emergencyno.xml" index="2"/>
+<item historyLabel="activity_view_missingcase.xml" index="1"/>
+<item historyLabel="activity_view_missingdetails.xml" index="6"/>
+<item historyLabel="post_complaint.xml" index="9"/>
+<item historyLabel="activity_forgot_password.xml" index="0"/>
+<item historyLabel="activity_home.xml" index="11"/>
+<item historyLabel="activity_inform_missingcase.xml" index="12"/>
+<item historyLabel="activity_login.xml" index="13"/>
+<item historyLabel="activity_post_complaint.xml" index="10"/>
+<item historyLabel="activity_reg_missingcase.xml" index="14"/>
+<item historyLabel="activity_u_register.xml" index="15"/>
+<item historyLabel="activity_view_awarness.xml" index="8"/>
+<item historyLabel="activity_view_caseimg.xml" index="5"/>
+<item historyLabel="activity_view_casestaus.xml" index="4"/>
+<item historyLabel="activity_forgot_password.xml" index="0"/>
+<item historyLabel="activity_home.xml" index="11"/>
+<item historyLabel="activity_inform_missingcase.xml" index="12"/>
+<item historyLabel="activity_login.xml" index="13"/>
+<item historyLabel="activity_post_complaint.xml" index="10"/>
+<item historyLabel="activity_reg_missingcase.xml" index="14"/>
+<item historyLabel="activity_u_register.xml" index="15"/>
+<item historyLabel="activity_view_awarness.xml" index="8"/>
+<item historyLabel="activity_view_caseimg.xml" index="5"/>
+<item historyLabel="activity_view_casestaus.xml" index="4"/>
+<item historyLabel="activity_view_criminal.xml" index="7"/>
+<item historyLabel="activity_view_criminalimg.xml" index="3"/>
+<item historyLabel="activity_view_emergencyno.xml" index="2"/>
+<item historyLabel="activity_view_missingcase.xml" index="1"/>
+<item historyLabel="activity_view_missingdetails.xml" index="6"/>
+<item historyLabel="Login.java" index="16">
+<position info="not_deleted" x="557" y="19"/>
+</item>
+<item historyLabel="View_criminalimg.java" index="17">
+<position info="not_deleted" x="2085" y="0"/>
+</item>
+<item historyLabel="Login.java" index="18">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="View_missingdetails.java" index="19">
+<position info="not_deleted" x="4357" y="0"/>
+</item>
+<item historyLabel="view_missingdetails.xml" index="20"/>
+<item historyLabel="View_casestaus.java" index="21">
+<position info="not_deleted" x="4042" y="0"/>
+</item>
+<item historyLabel="View_missingdetails.java" index="22">
+<position info="not_deleted" x="5606" y="0"/>
+</item>
+<item active="true" historyLabel="Customelist.java" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customelist.java" tooltip="MissingChild/src/com/example/missingchild/Customelist.java">
+<persistable path="/MissingChild/src/com/example/missingchild/Customelist.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_emergencyno.xml" tooltip="MissingChild/res/layout/view_emergencyno.xml">
+<persistable path="/MissingChild/res/layout/view_emergencyno.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_awarness.xml" tooltip="MissingChild/res/layout/view_awarness.xml">
+<persistable path="/MissingChild/res/layout/view_awarness.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="post_complaint.xml" tooltip="MissingChild/res/layout/post_complaint.xml">
+<persistable path="/MissingChild/res/layout/post_complaint.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_awarness.java" tooltip="MissingChild/src/com/example/missingchild/View_awarness.java">
+<persistable path="/MissingChild/src/com/example/missingchild/View_awarness.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="MissingChild/AndroidManifest.xml">
+<persistable path="/MissingChild/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="MissingChild/res/values/strings.xml">
+<persistable path="/MissingChild/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_missingdetails.xml" tooltip="MissingChild/res/layout/view_missingdetails.xml">
+<persistable path="/MissingChild/res/layout/view_missingdetails.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Home.java" tooltip="MissingChild/src/com/example/missingchild/Home.java">
+<persistable path="/MissingChild/src/com/example/missingchild/Home.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Forgot_password.java" tooltip="MissingChild/src/com/example/missingchild/Forgot_password.java">
+<persistable path="/MissingChild/src/com/example/missingchild/Forgot_password.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_forgot_password.xml" tooltip="MissingChild/res/layout/activity_forgot_password.xml">
+<persistable path="/MissingChild/res/layout/activity_forgot_password.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="View_emergencyno.java" tooltip="MissingChild/src/com/example/missingchild/View_emergencyno.java">
+<persistable path="/MissingChild/src/com/example/missingchild/View_emergencyno.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_casestaus.xml" tooltip="MissingChild/res/layout/activity_view_casestaus.xml">
+<persistable path="/MissingChild/res/layout/activity_view_casestaus.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_caseimg.xml" tooltip="MissingChild/res/layout/activity_view_caseimg.xml">
+<persistable path="/MissingChild/res/layout/activity_view_caseimg.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_view_awarness.xml" tooltip="MissingChild/res/layout/activity_view_awarness.xml">
+<persistable path="/MissingChild/res/layout/activity_view_awarness.xml"/>
+</file>
+</mruList>
+</workbench>

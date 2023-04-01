@@ -1,0 +1,33 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">COMPLAINT</h1>
+	<form method="post">
+		<table align="center" border="1">
+	<tr>
+		<td>id</td>
+		<td>date</td>
+		<td>user name</td>
+		<td>complaint</td>
+		<td></td>
+	</tr>
+            {% for o in objval %}
+	<tr>
+		<td>{{ o.c_id }}</td>
+        <td>{{ o.c_date }}</td>
+		<td>{{ o.user.username }}</td>
+		<td>{{ o.complaint }}</td>
+		<td><a href="{% url 'post_reply' abc=o.c_id %}" class="btn">reply</a></td>
+
+	</tr>
+            {% endfor %}
+</table>
+</form>
+</body>
+{#</html>#}
+{% endblock %}

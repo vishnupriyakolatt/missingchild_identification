@@ -1,0 +1,41 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">USERS</h1>
+	<form method="post">
+		<table align="center" border="1">
+	<tr>
+        <td>USER_ID</td>
+		<td>USER-NAME</td>
+		<td>EMAIL ID</td>
+		<td>MOBILE NUMBER</td>
+		<td>GENDER</td>
+		<td>ADDRESS</td>
+{#        <td>PIN CODE</td>#}
+        <td>STATE</td>
+        <td>COUNTRY</td>
+	</tr>
+
+            {% for o in objval %}
+	<tr>
+		<td>{{ o.user_id }}</td>
+        <td>{{ o.username }}</td>
+        <td>{{ o.u_email}}</td>
+        <td>{{ o.u_phno}}</td>
+		<td>{{ o.u_gender }}</td>
+		<td>{{ o.u_address }}</td>
+{#        <td>{{ o.u_pin}}</td>#}
+        <td>{{ o.u_state}}</td>
+        <td>{{ o.u_country }}</td>
+		</tr>
+            {% endfor %}
+</table>
+</form>
+</body>
+{#</html>#}
+{% endblock %}

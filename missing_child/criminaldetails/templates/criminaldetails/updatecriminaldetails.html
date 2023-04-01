@@ -1,0 +1,45 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">CRIMINAL DETAILS</h1>
+	<form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for i in objval %}
+		<table align="center" >
+            <tr>
+		<td>DATE:</td>
+		<td><input type="date" name="date" value="{{ i.cr_date}}" required=""></td>
+	</tr>
+	<tr>
+		<td>NAME:</td>
+		<td><input type="text" name="name" value="{{ i.cr_name }}" required=""></td>
+	</tr>
+            <tr>
+		<td>AGE:</td>
+		<td><input type="text" name="age" value="{{ i.cr_age }}" required=""></td>
+	</tr>
+	<tr>
+		<td>PERSONAL DETAILS:</td>
+		<td><textarea placeholder="location & Home Town" name="person" required="">{{ i.personal_details }}</textarea></td>
+	</tr>
+	<tr>
+		<td>CASE DETAILS:</td>
+		<td><textarea  name="case" required="">{{ i.case_details }}</textarea></td>
+	</tr>
+	<tr>
+		<td>UPLOAD IMAGE:</td>
+		<td><input type="file" placeholder="IMAGE" name="img" value="{{ i.cr_img }}" required=""></td>
+	</tr>
+		<tr>
+		<td><input type="submit" name="login" value="UPDATE" class="btn">
+</table>
+        {% endfor %}
+</form>
+</body>
+{#</html>#}
+{% endblock %}

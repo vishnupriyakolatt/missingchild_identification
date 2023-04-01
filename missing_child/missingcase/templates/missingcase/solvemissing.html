@@ -1,0 +1,43 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">SOLVING CASES</h1>
+	<form method="post">
+         {% csrf_token %}
+		<table align="center">
+	<tr>
+		<td>NAME:</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>DETAILS:</td>
+		<td><textarea name="details"></textarea></td>
+	</tr>
+	<tr>
+		<td>DATE:</td>
+		<td><input type="date" name="date"></td>
+	</tr>
+            <tr>
+		<td>TIME:</td>
+		<td><input type="time" name="time"></td>
+	</tr>
+	<tr>
+		<td>UPLOAD IMAGE:</td>
+		<td><input type="file" placeholder="IMAGE" name=img></td>
+	</tr>
+            <tr>
+		<td>CASE STATUS:</td>
+		<td><input type="text"name="status"></td>
+	</tr>
+		<tr>
+		<td><input type="submit" name="login" value="SOLVE"></td></tr>
+</table>
+</form>
+</body>
+{#</html>#}
+{% endblock %}

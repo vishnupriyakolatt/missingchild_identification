@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.missingchild"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.missingchild.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.missingchild.U_register"
+            android:label="@string/title_activity_u_register" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.Reg_missingcase"
+            android:label="@string/title_activity_reg_missingcase" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.Inform_missingcase"
+            android:label="@string/title_activity_inform_missingcase" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_casestaus"
+            android:label="@string/title_activity_view_casestaus" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_missingdetails"
+            android:label="@string/title_activity_view_missingdetails" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_emergencyno"
+            android:label="@string/title_activity_view_emergencyno" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_awarness"
+            android:label="@string/title_activity_view_awarness" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_criminal"
+            android:label="@string/title_activity_view_criminal" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.Post_complaint"
+            android:label="@string/title_activity_post_complaint" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_missingcase"
+            android:label="@string/title_activity_view_missingcase" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_caseimg"
+            android:label="@string/title_activity_view_caseimg" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.View_criminalimg"
+            android:label="@string/title_activity_view_criminalimg" >
+        </activity>
+        <activity
+            android:name="com.example.missingchild.Forgot_password"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+    </application>
+
+</manifest>

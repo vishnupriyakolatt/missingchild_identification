@@ -1,0 +1,72 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+<body>
+<h1 align="center">REGISTER MISSING CASE</h1>
+	<form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table align="center">
+
+            <td>NAME OF POLICE STATION</td>
+		<td><input type="text"  name="pst" required=""></td>
+	</tr>
+            <tr>
+		<td>NAME OF PERSON</td>
+		<td><input type="text" name="mp_name" required=""></td>
+	</tr>
+            <tr>
+            <td>DATE OF MISSING</td>
+		<td><input type="date"  name="dms" required=""></td>
+	</tr>
+            <tr>
+            <td>DATE OF REPORT</td>
+		<td><input type="date"  name="dre" required=""></td>
+	</tr>
+            <tr>
+                <tr>
+            <td>AGE</td>
+		<td><input type="text"  name="age" required=""></td>
+	</tr>
+            <tr>
+		<td>GENDER:</td>
+		<td><input type="radio" name="gen" value="Male" required="">Male
+        <input type="radio" name="gen" value="Female">Female</td>
+	</tr>
+            <tr>
+            <td>HEIGHT</td>
+		<td><input type="text"  name="hg" required=""></td>
+	</tr>
+             <tr>
+            <td>COMPLEXION</td>
+		<td><input type="text"  name="co"></td>
+	</tr>
+	<tr>
+		<td>IDENTIFICATION MARK:</td>
+		<td><textarea name="identity" required=""></textarea></td>
+	</tr>
+            <tr>
+		<td>Details of wearing apparels <br/>including
+            ornaments at the time of:</td>
+		<td><textarea name="wear" required=""></textarea></td>
+	</tr>
+            <tr>
+            <td>ADDRESS:</td>
+		<td><textarea name="address" required=""></textarea></td>
+	</tr>
+            <tr>
+            <td>UPLOAD IMAGE</td>
+		<td><input type="file" name="img" required=""></td>
+	</tr>
+            <tr>
+		<td><input type="submit" name="register" value="REGISTER" class="btn"></td></tr>
+        </table>
+    </form>
+
+</body>
+{#</html>#}
+{% endblock %}

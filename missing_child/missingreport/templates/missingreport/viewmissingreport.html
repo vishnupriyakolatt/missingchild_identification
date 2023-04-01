@@ -1,0 +1,35 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+<h1 align="center">MISSING CASE REPORTED</h1>
+	<form method="post">
+		<table align="center" border="1">
+	<tr>
+		<td>REPORT_ID</td>
+		<td>DATE OF CASE REPORTED</td>
+		<td>TIME OF CASE REPORTED</td>
+		<td>LOCATION</td>
+        <td>UPLOADED IMAGE</td>
+        <td>USER_ID</td>
+    </tr>
+            {% for o in objval %}
+	<tr>
+		<td>{{ o.report_id}}</td>
+        <td>{{ o.report_date}}</td>
+        <td>{{ o.report_time}}</td>
+		<td>{{ o.report_loc}}</td>
+       <td><img src="/static/{{ o.report_img}}" style="width: 5cm; height: 5cm"></td></td>
+         <td>{{ o.user.user_id}}</td>
+		</tr>
+            {% endfor %}
+        </table>
+    </form>
+
+</body>
+{#</html>#}
+{% endblock %}

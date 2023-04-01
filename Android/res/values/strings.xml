@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lost &amp; found</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_u_register">U_register</string>
+    <string name="title_activity_reg_missingcase">Reg_missingcase</string>
+    <string name="title_activity_inform_missingcase">Inform_missingcase</string>
+    <string name="title_activity_view_casestaus">View_casestaus</string>
+    <string name="title_activity_view_missingdetails">View_missingdetails</string>
+    <string name="title_activity_view_emergencyno">View_emergencyno</string>
+    <string name="title_activity_view_awarness">View_awarness</string>
+    <string name="title_activity_view_criminal">View_criminal</string>
+    <string name="title_activity_post_complaint">Post_complaint</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_view_missingcase">View_missingcase</string>
+    <string name="title_activity_view_caseimg">View_caseimg</string>
+    <string name="title_activity_view_criminalimg">View_criminalimg</string>
+    <string name="title_activity_forgot_password">Forgot_password</string>
+
+</resources>

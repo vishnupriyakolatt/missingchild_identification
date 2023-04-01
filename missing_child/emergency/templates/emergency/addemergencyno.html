@@ -1,0 +1,28 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">EMERGENCY NUMBERS</h1>
+	<form method="post">
+        {% csrf_token %}
+		<table align="center">
+		<tr>
+		<td>NAME:</td>
+		<td><input type="text" name="emergencyno" required=""></td>
+	</tr>
+	<tr>
+		<td>CONTACT-NO:</td>
+		<td><input type="tele" name="phno" required=""></td>
+		
+	</tr>
+		<tr>
+		<td><input type="submit" name="submit" value="SUBMIT" class="btn"></td></tr>
+</table>
+</form>
+</body>
+{#</html>#}
+{% endblock %}

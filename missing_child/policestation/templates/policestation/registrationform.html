@@ -1,0 +1,56 @@
+{% extends 'temp/police_reg.html' %}
+{% block base %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center">REGISTRATION FORM</h1>
+	<form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+		<table align="center">
+	<tr>
+		<td style="color: black">NAME OF POLICE STATION:</td>
+		<td style="color: black"><input type="text" name="name" required=""></td>
+	</tr>
+            <tr>
+		<td style="color: black">EMAIL ID:</td>
+		<td style="color: black"><input type="email" name="email" required=""></td>
+	</tr>
+            <td style="color: black">PHONE NUMBER</td>
+		<td style="color: black"><input type="tel" placeholder="+91" name="ph"  pattern="[0-9]{10}" required=""></td>
+	</tr>
+	<tr>
+		<td style="color: black">ADDRESS:</td>
+		<td style="color: black"><textarea name="address" placeholder="city & district" required=""></textarea></td>
+	</tr>
+            <tr>
+            <td style="color: black">PIN CODE:</td>
+		<td style="color: black"><input type="text" name="pin" required=""></td>
+	</tr>
+            <tr>
+            <td style="color: black">STATE:</td>
+		<td style="color: black"><input type="text" name="state"required=""></td>
+	</tr>
+            <tr>
+                <td style="color: black">COUNTRY:</td>
+		<td style="color: black"><input type="text"  name="coun" required=""></td>
+	</tr>
+             <tr>
+                <td style="color: black">UPLOAD IMAGE:</td>
+		<td style="color: black"><input type="file"  name="img" required=""></td>
+	</tr>
+            <tr>
+	        <td style="color: black">PASSWORD:</td>
+		<td style="color: black"><input type="password" name="pass" pattern=".{8,}" title="Password contain atleast 8 characters" required=""></td>
+	</tr>
+
+	<tr>
+        <td></td>
+		<td><input type="submit" name="login" value="REGISTER" class="btn  btn-primary"></td></tr>
+</table>
+</form>
+</body>
+{#</html>#}
+{% endblock %}

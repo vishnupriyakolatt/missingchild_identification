@@ -1,0 +1,44 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+<body>
+<h1 align="center">CRIMINAL DETAILS</h1>
+	<form method="post">
+		<table align="center" border="1">
+	<tr>
+		<td>ID</td>
+		<td>DATE</td>
+		<td>NAME</td>
+		<td>AGE</td>
+		<td>PERSONAL DETAILS</td>
+		<td>CASE DETAILS</td>
+        <td>IMAGE UPLOADED</td>
+        <td>STATION NAME</td>
+        <td></td>
+        <td></td>
+    </tr>
+            {% for o in objval %}
+	<tr>
+		<td>{{ o.cr_id}}</td>
+         <td>{{ o.cr_date}}</td>
+        <td>{{ o.cr_name}}</td>
+        <td>{{ o.cr_age}}</td>
+        <td>{{ o.personal_details}}</td>
+		<td>{{ o.case_details}}</td>
+		<td><img src="/static/{{ o.cr_img}}" style="width: 5cm; height: 5cm"></td>
+        <td>{{ o.p.p_name}}</td>
+    <td><a href="{% url 'update_criminal' idd=o.cr_id%}" class="btn">UPDATE</a> </td>
+    <td><a href="{% url 'delete_criminal' idd=o.cr_id%}" class="btn">DELETE</a> </td>
+		</tr>
+            {% endfor %}
+        </table>
+    </form>
+
+</body>
+{#</html>#}
+{% endblock %}

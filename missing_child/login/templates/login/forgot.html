@@ -1,0 +1,43 @@
+{% extends 'temp/forgot.html' %}
+{% block base %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+<body>
+	<h1 align="center"></h1>
+	<form method="post">
+        {% csrf_token %}
+		<table align="center">
+	<tr>
+		<td style="color: black">EMAIL: </td>
+		<td style="color: black"><input type="text" required="" name="uname" ></td>
+	</tr>
+	<tr>
+		<td style="color: black">NEW PASSWORD:</td>
+		<td style="color: black"><input type="password" required="" name="password" ></td>
+	</tr>
+            <tr>
+		<td style="color: black">CONFIRM PASSWORD:</td>
+		<td style="color: black"><input type="password" required="" name="cpassword" ></td>
+	</tr>
+
+
+
+		<tr>
+            <td></td><td><input type="submit" name="save" value="SAVE" class="btn btn-primary"></td></tr>
+
+
+
+</table>
+        {% if inv %}
+            <script>
+            alert("{{ inv }}")
+            </script>
+        {% endif %}
+</form>
+<br><br><br><br><br>
+</body>
+{#</html>#}
+{% endblock %}

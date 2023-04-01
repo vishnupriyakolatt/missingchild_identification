@@ -1,0 +1,25 @@
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title>reply</title>#}
+{#</head>#}
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+<body>
+
+	<h1 align="center">REPLY</h1>
+	<form method="post">
+           {% csrf_token %}
+		<table >
+			<tr align="center">
+		<td>REPLY:</td>
+		<td><textarea name="rply" required=""></textarea></td>
+		<tr align="center">
+            <td></td>
+		<td><input type="submit" name="post" value="SEND" class="btn"></td></tr>
+	</tr>
+		</table>
+
+	</form>
+</body>
+{% endblock %}

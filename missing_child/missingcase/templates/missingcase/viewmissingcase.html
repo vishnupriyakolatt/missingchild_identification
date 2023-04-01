@@ -1,0 +1,74 @@
+{% extends 'temp/police_site.html' %}
+{% block police_home %}
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<title></title>#}
+{#</head>#}
+{#<body>#}
+	<h1 align="center">MISSING CASE DETAILS</h1><br/>
+    <form method="post">
+    {% csrf_token %}
+        <center>
+    <table>
+        <tr>
+        <select name="ty" required="">
+            <option value="">-SELECT TYPE-</option>
+            <option value="police">POLICE</option>
+             <option value="user">USER</option>
+        </select>
+        </tr>
+         <tr align="center">
+		<td><input type="submit" name="SUBMIT" value="submit" class="btn"></td></tr>
+        </table>
+            </center>
+    </form>
+{#    </table>#}
+{#    </form>#}
+{#    <div class="container">#}
+        <form method="post">
+		<table align="center">
+	<tr>
+		<td>ID</td>
+
+		<td>TYPE</td>
+        <td>RESOURCE</td>
+		<td>NAME</td>
+		<td>AGE</td>
+        <td>GENDER</td>
+        <td>DATE OF MISSING</td>
+		<td>DATE OF REPORTING</td>
+        <td>HEIGHT</td>
+        <td>COMPLEXION</td>
+        <td>IDENTITY</td>
+        <td>WEARING APPARELS</td>
+        <td>ADDRESS&IMAGE</td>
+{#        <td>IMAGE</td>#}
+    </tr>
+            {% for o in objval %}
+	<tr>
+		<td>{{ o.m_id}}</td>
+        <td>{{ o.type }}</td>
+        <td>{{ o.m_name }}</td>
+         <td>{{ o.mp_name }}</td>
+		<td>{{ o.m_age }}</td>
+		<td>{{ o.m_gender}}</td>
+         <td>{{ o.m_datemis}}</td>
+        <td>{{ o.m_datereport}}</td>
+        <td>{{ o.m_height}}</td>
+        <td>{{ o.m_complexion}}</td>
+        <td>{{ o.m_identimark}}</td>
+        <td>{{ o.m_detail}}</td>
+        <td>{{ o.m_address}}
+        <img src="/static/{{ o.m_img}}" style="width: 5cm; height: 5cm"></td>
+    <td><a href="{% url 'approve' idd=o.m_id %}">SOLVE CASE</a></td>
+    <td><a href="{% url 'reject' idd=o.m_id %}">REJECT</a></td>
+		</tr>
+            {% endfor %}
+</table>
+</form>
+{#    </div>#}
+
+{#</body>#}
+{#</html>#}
+{% endblock %}
